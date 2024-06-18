@@ -100,7 +100,6 @@ import {
   NavigationMenuItem,
   NavigationMenuLink,
 } from "./ui/navigation-menu"; // Ensure you import NavigationMenu
-import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
 import { ThemeToggle } from "./theme-toggle";
 
 const Navbar = () => {

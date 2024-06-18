@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import { Label } from "@/components/ui/label";
+import { Label } from "../components/ui/label";
 import { Button } from "./ui/button";
-import { RightArrow, User } from "@/lib/utils";
+import { RightArrow, User } from "../lib/utils";
 import {
   UsersRound,
   NotepadText,

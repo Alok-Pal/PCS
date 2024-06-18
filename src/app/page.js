@@ -1,5 +1,5 @@
-import { CardWithImage } from "@/components/Cards";
-import MainImage from "@/components/MainImage"
+import { CardWithImage } from "../components/Cards"
+import MainImage from "../components/MainImage"
 
 
 

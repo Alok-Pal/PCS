@@ -1,6 +1,6 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { RightArrow } from "@/lib/utils";
+import { Button } from "../components/ui/button";
+import { Card, CardContent } from "../components/ui/card";
+import { RightArrow } from "../lib/utils";
 import Image from "next/image";
 
 export function CardWithImage() {
