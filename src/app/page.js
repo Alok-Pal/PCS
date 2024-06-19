@@ -2,6 +2,7 @@ import { CardWithImage } from "../components/Cards"
 import CarouselSlider from "../components/CarouselSlider";
 import MainImage from "../components/MainImage"
 import ServicesCards from "../components/ServicesCards";
+import SoftwareCases from "../components/SoftwareCases";
 
 
 
@@ -22,7 +23,7 @@ export default function Home() {
           <p className="text-6xl text-center font-bold font-serif ">Services We Offer.</p>
         </div>
         <div className="w-full flex justify-center text-center">
-          <p className="text-center max-w-[60vw] ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          <p className="text-center max-w-[60vw] mt-4 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam</p>
         </div>
         <div className="pb-10">
           <ServicesCards />
@@ -38,6 +39,10 @@ export default function Home() {
         <div className="">
           <CarouselSlider />
         </div>
+      </div>
+
+      <div className="mt-10">
+        <SoftwareCases/>
       </div>
 
     </div>
