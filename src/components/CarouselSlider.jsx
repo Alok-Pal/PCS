@@ -182,12 +182,13 @@ const CarouselSlider = () => {
   }, []);
 
   return (
-    <div className="lg:m-20 md:m-20 sm:m-16 m-16">
+    <div className="lg:m-20 md:m-20 sm:m-16 m-10">
       {isLargeScreen ? (
         <Carousel
           plugins={[plugin.current]}
           opts={{
             loop: true,
+            align: "center",
           }}
           className="w-full max-w-lg"
         >
@@ -206,6 +207,7 @@ const CarouselSlider = () => {
           plugins={[plugin.current]}
           opts={{
             loop: true,
+            align: "center",
           }}
           className="w-full max-w-xs"
         >

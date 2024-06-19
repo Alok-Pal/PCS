@@ -32,7 +32,7 @@ export default function Home() {
       {/* CarouselSlider */}
 
       <div className="lg:px-20 md:px-20 lg:pt-20 md:pt-20 p-2 grid lg:grid-cols-[40%_60%]">
-        <div className="ps-24 pt-10 text-6xl font-bold font-serif" >
+        <div className="lg:ps-24 md:ps-24 sm:ps-20 ps-4 pt-10 text-6xl font-bold font-serif" >
           Our Trusted Partners.
         </div>
         <div className="">
