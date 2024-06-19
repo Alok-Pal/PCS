@@ -136,7 +136,7 @@ const MainImage = () => {
           </div>
         </div>
       </div>
-      <div className="absolute  border-white lg:bottom-9 md:bottom-9 sm:bottom-9 bottom-20 w-full pt-20  max-w-screen-xl mx-auto grid justify-center lg:py-10">
+      <div className="absolute  border-white lg:bottom-9 md:bottom-9 sm:bottom-9 bottom-44 w-full pt-20  max-w-screen-xl mx-auto grid justify-center lg:py-10">
         <div className="grid border-t-4 md:grid-cols-4 sm:grid-cols-2 grid-cols-2 justify-center bg-orange-800 rounded-lg shadow-lg p-4 space-x-4 md:space-x-8">
           <div className="flex ps-4 items-center space-x-2 md:space-x-3">
             <UsersRound className="text-white w-10 h-10" />
