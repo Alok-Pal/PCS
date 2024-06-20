@@ -9,11 +9,11 @@ export default function Footer() {
           <div className="mb-6 md:mb-0">
             <Link href="/" className="flex items-center">
               <Image
-                src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
-                className="mr-3 h-16"
+                src="/assets/Pcs.png"
+                className="mr-2 h-12"
+                width={70}
+                height={70}
                 alt="Logo"
-                width={120}
-                height={120}
               />
             </Link>
           </div>
@@ -76,7 +76,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+        <hr className="my-6 w-full border-gray-200 sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center font-bold">
             © 2023
@@ -160,7 +160,7 @@ export default function Footer() {
                   clipRule="evenodd"
                 />
               </svg>
-              <span className="sr-only">Dribbble account</span>
+              <span className="sr-only">Dribble account</span>
             </Link>
           </div>
         </div>
