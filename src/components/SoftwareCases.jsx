@@ -29,14 +29,14 @@ const SoftwareCases = () => {
         <div
           className="triangle"
           style={{
-            borderBottom: "190px solid transparent",
-            borderRight: "190px solid transparent",
-            borderLeft: "190px solid #9A3412",
+            borderBottom: "9rem solid transparent",
+            borderRight: "9rem solid transparent",
+            borderLeft: "9rem solid #9A3412",
           }}
         ></div>
       </div>
 
-      <div className="font-serif" style={{ marginTop: "-190px", backgroundColor: "#292929" }}>
+      <div className="font-serif" style={{ marginTop: "-9rem", backgroundColor: "#292929" }}>
         <div className="pt-28  ">
           <p className=" z-40 relative lg:text-6xl md:text-6xl sm:text-4xl  text-2xl text-white text-center font-bold">Consultancy Cases</p>
           <div className="flex justify-center "><p className="text-center max-w-[60vw] mt-4 text-white ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam</p></div>
@@ -81,12 +81,12 @@ const SoftwareCases = () => {
           content: "";
           position: absolute;
           top: 6px; /* Positioning the shadow to match the triangle */
-          left: -180px;
+          left: -8.7rem;
           width: 0;
           height: 0;
-          border-bottom: 190px solid transparent;
-          border-right: 190px solid transparent;
-          border-left: 190px solid #f6ebe736; /* Light orange color with opacity */
+          border-bottom: 9rem solid transparent;
+          border-right: 9rem solid transparent;
+          border-left: 9rem solid #f6ebe736; /* Light orange color with opacity */
           box-shadow: inset -10px 0 10px -5px #9a3412; /* Adjust for inner shadow */
           z-index: -1;
         }

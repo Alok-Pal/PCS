@@ -1,0 +1,15 @@
+/* styles.css */
+
+.main-image {
+    background-image: url('/assets/mainImg.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: left center; /* Adjust the image position for smaller devices */
+    height: 90vh;
+  }
+  
+  @media (min-width: 640px) {
+    .main-image {
+      background-position: center; /* Center the image for medium to large devices */
+    }
+  }
+  
