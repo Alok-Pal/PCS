@@ -3,8 +3,8 @@ import CarouselSlider from "../components/CarouselSlider";
 import MainImage from "../components/MainImage"
 import ServicesCards from "../components/ServicesCards";
 import SoftwareCases from "../components/SoftwareCases";
-
-
+import TeamMembers from "../components/TeamMembers";
+import RequestCall from "../components/RequestCall";
 
 export default function Home() {
   return (
@@ -41,10 +41,27 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Our case history */}
       <div className="mt-10">
-        <SoftwareCases/>
+        <SoftwareCases />
       </div>
 
+      {/* Our Team Members */}
+      <div className="">
+        <div className="pt-28  ">
+          <p className=" relative lg:text-6xl md:text-6xl sm:text-4xl  text-2xl text-center font-bold">Our Team Members</p>
+          <div className="flex justify-center "><p className="text-center max-w-[55vw] mt-4  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua.</p></div>
+        </div>
+        <div className="pb-24 pt-10">
+          <TeamMembers />
+        </div>
+      </div>
+
+      {/* Request Call */}
+
+      <div>
+        <RequestCall/>
+      </div>
     </div>
 
   );
