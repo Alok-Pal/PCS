@@ -20,9 +20,10 @@ const MainImage = () => {
       <Head>
       <link rel="preload" href="/assets/mainImg.jpg" as="image" />
     </Head>
-      <Slide direction="up" duration={1000}>
+      <Slide direction="up" duration={1300}>
         <div className="main-image relative">
           <div className="pt-10 lg:px-20 md:px-20 sm:px-20 px-16">
+          <Slide direction="up" duration={1700}>
             <Label
               htmlFor=""
               className="text-xl font-bold font-serif text-orange-800 "
@@ -38,12 +39,14 @@ const MainImage = () => {
               <p className="mt-2">Consultancy</p>
               <p className="mt-2">Services.</p>
             </Label>
-
+            </Slide>
+            <Slide direction="up" duration={1700}>
             <div className="sm:mt-7 mt-5 pb-20">
-              <Button className="bg-orange-800 hover:bg-orange-700 dark:text-white font-serif font-bold ">
+              <Button className="bg-orange-800 hover:bg-orange-700 h-14  dark:text-white font-serif font-bold ">
                 Free Appointment &nbsp; <RightArrow />
               </Button>
             </div>
+            </Slide>
           </div>
         </div>
       </Slide>
