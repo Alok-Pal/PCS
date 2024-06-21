@@ -1,3 +1,4 @@
+'use client'
 import { CardWithImage } from "../components/Cards"
 import CarouselSlider from "../components/CarouselSlider";
 import MainImage from "../components/MainImage"
@@ -5,8 +6,13 @@ import ServicesCards from "../components/ServicesCards";
 import SoftwareCases from "../components/SoftwareCases";
 import TeamMembers from "../components/TeamMembers";
 import RequestCall from "../components/RequestCall";
+import { useEffect } from "react";
 
 export default function Home() {
+  // In order to render the part where the image starts.
+  useEffect(() => {
+    window.scrollTo(0, 70); 
+  }, []);
   return (
     <div className="w-full">
       {/* Img */}
