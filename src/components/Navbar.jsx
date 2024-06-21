@@ -1,11 +1,11 @@
 "use client";
+import { Mail, MapPin } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { Slide } from "react-awesome-reveal";
 import { ThemeToggle } from "./theme-toggle";
-import { Mail, MapPin } from "lucide-react";
-import { Fade, Slide } from "react-awesome-reveal";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
