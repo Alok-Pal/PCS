@@ -1,9 +1,6 @@
 "use client";
-import React from "react";
-import { Button } from "../components/ui/button";
-import { Card, CardContent } from "../components/ui/card";
-import { RightArrow } from "../lib/utils";
 import Image from "next/image";
+import { Fade, Slide } from "react-awesome-reveal";
 
 const SoftwareCases = () => {
   const data = [
@@ -35,37 +32,53 @@ const SoftwareCases = () => {
           }}
         ></div>
       </div>
-
-      <div className="font-serif" style={{ marginTop: "-9rem", backgroundColor: "#292929" }}>
+      <div
+        className="font-serif"
+        style={{ marginTop: "-9rem", backgroundColor: "#292929" }}
+      >
         <div className="pt-28  ">
-          <p className=" z-40 relative lg:text-6xl md:text-6xl sm:text-4xl  text-2xl text-white text-center font-bold">Consultancy Cases</p>
-          <div className="flex justify-center "><p className="text-center max-w-[60vw] mt-4 text-white ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam</p></div>
+          <Slide direction="up" duration={1000} fraction={0}>
+            <p className=" z-40 relative lg:text-6xl md:text-6xl sm:text-4xl  text-2xl text-white text-center font-bold">
+              Consultancy Cases
+            </p>
+          </Slide>
+          <Slide direction="up" duration={1200} fraction={0}>
+            <div className="flex justify-center ">
+              <p className="text-center max-w-[60vw] mt-4 text-white ">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim
+                ad minim veniam
+              </p>
+            </div>
+          </Slide>
         </div>
         <div className="w-full pt-10 lg:px-40 md:px-40 sm:px-32 px-12 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 pb-28 ">
           {data?.map((item, index) => (
             <div key={index} className="">
               <div className=" w-full h-full">
-                <div className="relative mt-7">
-                  <Image
-                    className="rounded-lg"
-                    alt="cardImg"
-                    src={`${item.img}`}
-                    width={350}
-                    height={350}
-                    //   fill
-                    //   objectFit="cover"
-                    //   quality={100}
-                    //   sizes="100vw"
-                    quality={100}
-                  />
-                </div>
+                <Fade direction="bottom" duration={5000} fraction={0}>
+                    <div className="relative mt-7">
+                      <Image
+                        className="rounded-lg"
+                        alt="cardImg"
+                        src={`${item.img}`}
+                        width={350}
+                        height={350}
+                        quality={100}
+                      />
+                    </div>
+                </Fade>
                 <div className="p-4">
-                  <p className="text-sm text-orange-700 font-bold font-serif mt-7 leading-10">
-                    {item?.title}
-                  </p>
-                  <p className="text-2xl text-white font-bold font-serif  leading-10">
-                    {item?.description}
-                  </p>
+                  <Slide direction="up" duration={1200} fraction={0}>
+                    <p className="text-sm text-orange-700 font-bold font-serif mt-7 leading-10">
+                      {item?.title}
+                    </p>
+                  </Slide>
+                  <Slide direction="up" duration={1200} fraction={0}>
+                    <p className="text-2xl text-white font-bold font-serif  leading-10">
+                      {item?.description}
+                    </p>
+                  </Slide>
                 </div>
               </div>
             </div>

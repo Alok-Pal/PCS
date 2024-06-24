@@ -7,6 +7,7 @@ import { Slide } from "react-awesome-reveal";
 
 export function CardWithImage() {
   return (
+   <>
     <Card className="w-full pb-10">
       <CardContent className="h-full">
         <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 w-full h-full">
@@ -54,6 +55,6 @@ export function CardWithImage() {
           </div>
         </div>
       </CardContent>
-    </Card>
+    </Card></>
   );
 }

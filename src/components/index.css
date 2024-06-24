@@ -82,3 +82,10 @@
   
 
   /* RequestCall */
+
+
+  /* About us */
+  .bottom-left {
+    border-bottom-left-radius: 100px;
+    float: left
+  }
