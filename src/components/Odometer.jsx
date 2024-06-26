@@ -21,7 +21,7 @@ const OdometerComponent = ({ value }) => {
       <CountUp
         start={-400}
         end={startValue}
-        duration={1.5}
+        duration={2}
         useEasing={true}
         separator=","
         decimals={0}
