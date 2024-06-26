@@ -185,7 +185,7 @@ const Navbar = () => {
                   <Link
                     href="/aboutPage"
                     className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${getLinkClass(
-                      "/about"
+                      "/aboutPage"
                     )}`}
                   >
                     About
@@ -195,7 +195,7 @@ const Navbar = () => {
                   <Link
                     href="/servicesPage"
                     className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${getLinkClass(
-                      "/services"
+                      "/servicesPage"
                     )}`}
                   >
                     Services
@@ -205,7 +205,7 @@ const Navbar = () => {
                   <Link
                     href="/contactPage"
                     className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${getLinkClass(
-                      "/contact"
+                      "/contactPage"
                     )}`}
                   >
                     Contact
