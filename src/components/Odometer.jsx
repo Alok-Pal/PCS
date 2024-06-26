@@ -1,25 +1,32 @@
-'use client'
+"use client";
 
-import React, { useState, useEffect } from 'react';
-import Odometer from 'react-odometerjs';
-import { useInView } from 'react-intersection-observer';
-import 'odometer/themes/odometer-theme-default.css';
+import React, { useState, useEffect } from "react";
+import CountUp from 'react-countup';
+import { useInView } from "react-intersection-observer";
 
 const OdometerComponent = ({ value }) => {
-  const [displayValue, setDisplayValue] = useState(0);
+  const [startValue, setStartValue] = useState(0);
   const { ref, inView } = useInView({
-    triggerOnce: false, 
+    triggerOnce: true,
   });
 
   useEffect(() => {
     if (inView) {
-      setDisplayValue(value);
+      setStartValue(value);
     }
   }, [inView, value]);
 
   return (
     <div ref={ref}>
-      <Odometer value={displayValue} format="d" theme="default" duration={2500}  />
+      <CountUp
+        start={-400}
+        end={startValue}
+        duration={1.5}
+        useEasing={true}
+        separator=","
+        decimals={0}
+        delay={0}
+      />
     </div>
   );
 };
