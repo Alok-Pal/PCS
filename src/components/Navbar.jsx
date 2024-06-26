@@ -3,13 +3,14 @@ import { Mail, MapPin } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Slide } from "react-awesome-reveal";
 import { ThemeToggle } from "./theme-toggle";
-import { Phone } from 'lucide-react';
+import { Phone } from "lucide-react";
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  let toggle;
+  const [isMenuOpen, setIsMenuOpen] = useState(toggle);
   const pathname = usePathname();
 
   const toggleMenu = () => {
@@ -21,6 +22,11 @@ const Navbar = () => {
       ? "text-orange-700 bg-gray-200"
       : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent";
   };
+
+  useEffect(() => {
+    // Close menu when pathname changes (i.e., navigation)
+    setIsMenuOpen(false);
+  }, [pathname]);
 
   return (
     <>
@@ -119,12 +125,17 @@ const Navbar = () => {
               />
             </Link>
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse sm:mt-0 mt-4">
-            <Link className="flex" href="https://api.whatsapp.com/send?phone=9510573174" target="blank">
-            <div className=" bg-orange-100 p-2 rounded-xl hover:bg-orange-600 hover:text-white ">
-              <Phone />
-            </div>
-            &nbsp;  9510573174 &nbsp;&nbsp;</Link>
-            
+              <Link
+                className="flex"
+                href="https://api.whatsapp.com/send?phone=9510573174"
+                target="blank"
+              >
+                <div className=" bg-orange-100 p-2 rounded-xl hover:bg-orange-600 hover:text-white ">
+                  <Phone />
+                </div>
+                &nbsp; 9510573174 &nbsp;&nbsp;
+              </Link>
+
               <ThemeToggle />
               <button
                 onClick={toggleMenu}
@@ -162,7 +173,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     href="/"
-                    className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${getLinkClass(
+                    className={`block py-2 px-3 rounded md:bg-transparent md:p-0  ${getLinkClass(
                       "/"
                     )}`}
                     aria-current={pathname === "/" ? "page" : undefined}
@@ -172,7 +183,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    href="/about"
+                    href="/aboutPage"
                     className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${getLinkClass(
                       "/about"
                     )}`}
@@ -182,7 +193,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    href="/services"
+                    href="/servicesPage"
                     className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${getLinkClass(
                       "/services"
                     )}`}
@@ -192,7 +203,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    href="/contact"
+                    href="/contactPage"
                     className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${getLinkClass(
                       "/contact"
                     )}`}
