@@ -14,6 +14,8 @@ export default function Home() {
   useEffect(() => {
     window.scrollTo(0, 70);
   }, []);
+
+  const cardImg = "/assets/cardImg.jpg"
   return (
     <div className="w-full">
       {/* Img */}
@@ -21,7 +23,7 @@ export default function Home() {
 
       {/* Card */}
       <div className="lg:m-40 md:m-40 sm:m-32 mt-20 m-4">
-        <CardWithImage />
+        <CardWithImage  cardImg={cardImg}/>
       </div>
 
       {/* Services */}
@@ -49,7 +51,6 @@ export default function Home() {
       </div>
 
       {/* About Us */}
-
       <div><AboutUs/></div>
     </div>
 

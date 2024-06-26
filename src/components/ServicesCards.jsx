@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { Card, CardContent } from "../components/ui/card";
 import { Fade, Slide } from "react-awesome-reveal";
+import React from "react";
 const ServicesCards = () => {
   const data = [
     {
@@ -29,7 +30,7 @@ const ServicesCards = () => {
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.",
     },
     {
-      img: "/assets/financial.png",
+      img: "/assets/financial2.png",
       title: "Business consulting",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.",
@@ -65,9 +66,9 @@ const ServicesCards = () => {
           <div className="lg:mx-40 md:mx-32 mx-12 my-10 mt-14 font-serif">
             <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
               {data.map((item, index) => (
-                <>
-                  <Slide direction="up" duration={800}>
-                    <Card key={index} className="">
+                 <React.Fragment key={index}>
+                  <Slide key={index} direction="up" duration={800}>
+                    <Card  className="">
                       <CardContent className="h-full">
                         <div className="w-full h-full lg:p-8 md:p-4 sm:p-6 p-6">
                           <Slide direction="up" duration={1100}>
@@ -103,7 +104,7 @@ const ServicesCards = () => {
                       </Fade>
                     </div>
                   )}
-                </>
+                </React.Fragment>
               ))}
             </div>
           </div>

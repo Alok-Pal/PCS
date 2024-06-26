@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Slide } from "react-awesome-reveal";
 import { ThemeToggle } from "./theme-toggle";
+import { Phone } from 'lucide-react';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -117,7 +118,13 @@ const Navbar = () => {
                 alt="Logo"
               />
             </Link>
-            <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+            <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse sm:mt-0 mt-4">
+            <Link className="flex" href="https://api.whatsapp.com/send?phone=9510573174" target="blank">
+            <div className=" bg-orange-100 p-2 rounded-xl hover:bg-orange-600 hover:text-white ">
+              <Phone />
+            </div>
+            &nbsp;  9510573174 &nbsp;&nbsp;</Link>
+            
               <ThemeToggle />
               <button
                 onClick={toggleMenu}
