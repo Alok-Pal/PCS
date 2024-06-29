@@ -122,6 +122,7 @@ const Navbar = () => {
                 width={70}
                 height={70}
                 alt="Logo"
+                unoptimized={true}
               />
             </Link>
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse sm:mt-0 mt-4">

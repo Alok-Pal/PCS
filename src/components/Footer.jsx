@@ -14,6 +14,7 @@ export default function Footer() {
                 width={70}
                 height={70}
                 alt="Logo"
+                unoptimized={true}
               />
             </Link>
           </div>

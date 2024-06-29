@@ -86,6 +86,7 @@ const AboutUs = () => {
                               alt={`logo-${index}`}
                               width={90}
                               height={90}
+                              unoptimized={true}
                             />
                           </div>
                         </Slide>

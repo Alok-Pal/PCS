@@ -451,6 +451,7 @@ const Service = () => {
                 width={800}
                 height={400}
                 quality={100}
+                unoptimized={true}
               />
             </div>
           </Slide>

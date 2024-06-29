@@ -62,7 +62,9 @@ const TeamMembers = () => {
                     width={550}
                     height={550}
                     quality={100}
-                    objectFit="cover"
+
+                    unoptimized={true}
+                    style={{ objectFit: "cover" }}
                   />
                 </div>
               </Slide>

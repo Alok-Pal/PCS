@@ -74,6 +74,7 @@ const CarouselSlider = () => {
                         alt={`logo-${index}`}
                         width={90}
                         height={90}
+                        unoptimized={true}
                       />
                     </div>
                   </CarouselItem>
@@ -98,6 +99,7 @@ const CarouselSlider = () => {
                         alt={`logo-${index}`}
                         width={90}
                         height={90}
+                        unoptimized={true}
                       />
                     </div>
                   </CarouselItem>

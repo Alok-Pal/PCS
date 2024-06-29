@@ -65,6 +65,7 @@ const SoftwareCases = () => {
                         width={350}
                         height={350}
                         quality={100}
+                        unoptimized={true}
                       />
                     </div>
                 </Fade>

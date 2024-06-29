@@ -23,6 +23,7 @@ export function CardWithImage({ cardImg, clientDiv }) {
                   quality={100}
                   sizes="100vw"
                   priority="true"
+                  unoptimized={true}
                 />
               </div>
             </Slide>
@@ -58,6 +59,7 @@ export function CardWithImage({ cardImg, clientDiv }) {
                       width={50} // Adjusted size for a better fit
                       height={50} // Adjusted size for a better fit
                       quality={100}
+                      unoptimized={true}
                     />
                   </div>
                     <div className="font-bold text-3xl ps-4 ">

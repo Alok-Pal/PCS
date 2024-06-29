@@ -80,6 +80,7 @@ const ServicesCards = () => {
                                 width={50} // Adjusted size for a better fit
                                 height={50} // Adjusted size for a better fit
                                 quality={100}
+                                unoptimized={true}
                               />
                             </div>
                           </Slide>
