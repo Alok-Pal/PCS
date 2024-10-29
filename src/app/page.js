@@ -16,7 +16,7 @@ export default function Home() {
     window.scrollTo(0, 70);
   }, []);
 
-  const cardImg = "/assets/cardImg.jpg"
+  const cardImg = "/assets/Graph.jpg"
   return (
     <div className="w-full">
       {/* Img */}

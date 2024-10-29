@@ -65,8 +65,8 @@ const Service = () => {
                 className=""
                 alt="cardImg"
                 src="/assets/serviceImg.jpg"
-                width={800}
-                height={400}
+                width={600}
+                height={300}
                 quality={100}
                 unoptimized={true}
               />
