@@ -29,6 +29,12 @@ const ServicesCards = () => {
       description:
         "Expert guidance on technology strategy, digital transformation, and innovation roadmaps to help you navigate the rapidly evolving tech landscape.",
     },
+    {
+      img: "/assets/industry1.png",
+      title: "Industrial Automation",
+      description:
+        "Streamlined automation solutions to enhance productivity, optimize processes, and integrate smart manufacturing practices for improved efficiency and output.",
+    }
   ];
 
   return (

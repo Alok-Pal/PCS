@@ -40,7 +40,7 @@ export default function FounderCard() {
             </Slide>
             <Slide direction="up" duration={800}>
               <p className="mt-6 md:mt-9 text-lg md:text-xl font-serif">
-                With over 5 years of experience in software development, IoT solutions, and product innovation, 
+                With over 5+ years of experience in  IoT solutions, software development and product innovation. 
                 Nilesh Pal is the driving force behind Pal Consultancy Services. His visionary leadership and technical 
                 expertise have been instrumental in launching our company as a fresh, innovative player in the tech consultancy space in 2023.
                 <span className="font-bold"> Throughout his career, he has successfully led numerous high-profile projects, consistently delivering exceptional results that drive business growth and digital transformation.</span>

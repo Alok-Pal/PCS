@@ -16,15 +16,15 @@ const CarouselSlider = () => {
     {
       img: "/assets/GRB_Logo.png",
     },
-    {
-      img: "/assets/logo2.png",
-    },
-    {
-      img: "/assets/logo3.png",
-    },
-    {
-      img: "/assets/logo4.png",
-    },
+    // {
+    //   img: "/assets/logo2.png",
+    // },
+    // {
+    //   img: "/assets/logo3.png",
+    // },
+    // {
+    //   img: "/assets/logo4.png",
+    // },
   ];
 
   const [isLargeScreen, setIsLargeScreen] = useState(false);
@@ -50,7 +50,7 @@ const CarouselSlider = () => {
     <Slide direction="up" duration={1000}>
       <div className="lg:px-20 md:px-20 lg:pt-20 md:pt-20 p-2 grid lg:grid-cols-[40%_60%]">
         <div className="lg:ps-24 md:ps-24 sm:ps-20 ps-4 pt-10 text-6xl font-bold font-serif">
-          Our Trusted Partners.
+          Our Trusted Clients.
         </div>
         <div className="lg:m-20 md:m-20 sm:m-16 m-10">
           {isLargeScreen ? (
