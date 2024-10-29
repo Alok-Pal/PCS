@@ -59,11 +59,11 @@ const Navbar = () => {
               <p
                 className=" cursor-pointer"
                 onClick={(e) => {
-                  window.location.href = "mailto:teampcsindia@gmail.com";
+                  window.location.href = "mailto:contact@pcssolution.co";
                 }}
               >
                 <Mail className=" inline " />
-                &nbsp;&nbsp; teampcsindia@gmail.com
+                &nbsp;&nbsp; contact@pcssolution.co
               </p>
               <p className=" cursor-pointer">
                 <MapPin className="inline" />

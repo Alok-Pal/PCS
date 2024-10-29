@@ -29,18 +29,6 @@ const ServicesCards = () => {
       description:
         "Expert guidance on technology strategy, digital transformation, and innovation roadmaps to help you navigate the rapidly evolving tech landscape.",
     },
-    // {
-    //   img: "/assets/financial2.png",
-    //   title: "Business consulting",
-    //   description:
-    //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.",
-    // },
-    // {
-    //   img: "/assets/mortgage.png",
-    //   title: "Business consulting",
-    //   description:
-    //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.",
-    // },
   ];
 
   return (
@@ -57,18 +45,16 @@ const ServicesCards = () => {
           <Slide direction="up" duration={1100}>
             <div className="w-full flex justify-center text-center">
               <p className="text-center max-w-[60vw] mt-4 dark:text-black">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim
-                ad minim veniam
+                We provide a comprehensive range of custom software solutions designed to meet your unique business needs and goals. From initial consulting and development to implementation and ongoing support.
               </p>
             </div>
           </Slide>
           <div className="lg:mx-40 md:mx-32 mx-12 my-10 mt-14 font-serif">
             <div className="grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4">
               {data.map((item, index) => (
-                 <React.Fragment key={index}>
+                <React.Fragment key={index}>
                   <Slide key={index} direction="up" duration={800}>
-                    <Card  className="">
+                    <Card className="">
                       <CardContent className="h-full">
                         <div className="w-full h-full lg:p-8 md:p-4 sm:p-6 p-6">
                           <Slide direction="up" duration={1100}>
