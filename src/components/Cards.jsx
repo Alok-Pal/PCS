@@ -5,8 +5,6 @@ import OdometerComponent from "../components/Odometer";
 import { Card, CardContent } from "../components/ui/card";
 
 export function CardWithImage({ cardImg, clientDiv }) {
-  console.log("🚀 ~ CardWithImage ~ cardImg:", cardImg);
-
   return (
     <>
       <Card className="w-full pb-10">

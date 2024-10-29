@@ -134,7 +134,7 @@ const Navbar = () => {
                 <div className=" bg-orange-100 p-2 rounded-xl hover:bg-orange-600 hover:text-white ">
                   <Phone />
                 </div>
-                &nbsp; 9510573174 &nbsp;&nbsp;
+                &nbsp; +91 9510573174 &nbsp;&nbsp;
               </Link>
 
               <ThemeToggle />
