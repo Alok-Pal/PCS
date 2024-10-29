@@ -50,7 +50,7 @@ const About = () => {
         <TeamMembers />
       </div> */}
       <div>
-        <AboutUs/>
+        {/* <AboutUs/> */}
       </div>
       <style jsx>{`
         .triangle {

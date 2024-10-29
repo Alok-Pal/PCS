@@ -8,17 +8,20 @@ export default function FounderCard() {
   return (
     <Card className="w-full pb-10">
       <CardContent className="h-full">
-        <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 w-full h-full gap-6">
+        <div className="grid lg:grid-cols-[1fr_1.5fr] md:grid-cols-1 grid-cols-1 w-full h-full gap-6">
           {/* Founder Image */}
           <Slide direction="up" duration={800}>
-            <div className="relative w-full h-[50vh] md:h-[65vh] mt-5 md:mt-7">
+            <div className="relative w-full h-[50vh] md:h-[40vh] mt-5 md:mt-7 lg:ps-10 md:ps-8 sm:ps-5">
               <Image
                 className="rounded-lg object-cover"
                 alt="Portrait of Nilesh Pal, Founder & CEO"
-                src="/assets/mainImg.jpg" // Replace with the actual path
-                fill
+                src="/assets/nilesh.jpg" // Replace with the actual path
+                // fill
+                width ={350}
+                height={350}
                 quality={100}
-                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                // sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+
                 priority
                 unoptimized
               />
@@ -28,7 +31,7 @@ export default function FounderCard() {
           {/* Founder Information */}
           <div className="p-4">
             <Slide direction="up" duration={800}>
-              <p className="text-xl md:text-3xl lg:text-4xl font-bold font-serif mt-5 md:mt-7 leading-tight md:leading-10">
+              <p className="text-xl md:text-3xl lg:text-4xl font-bold font-serif mt-5 md:mt-7 sm:mt-4 leading-tight md:leading-10">
                 Meet Our Founder & CEO
               </p>
               <p className="text-xl md:text-3xl lg:text-4xl font-bold font-serif leading-4 text-orange-800">

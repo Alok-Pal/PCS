@@ -13,7 +13,7 @@ import FounderCard from "src/components/Founder";
 export default function Home() {
   // In order to render the part where the image starts.
   useEffect(() => {
-    window.scrollTo(0, 70);
+    window.scrollTo(0, 74);
   }, []);
 
   const cardImg = "/assets/Graph.jpg"
@@ -55,7 +55,7 @@ export default function Home() {
       </div>
 
       {/* About Us */}
-      <div><AboutUs /></div>
+      {/* <div><AboutUs /></div> */}
     </div>
 
   );

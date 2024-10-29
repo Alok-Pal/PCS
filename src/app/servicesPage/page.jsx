@@ -188,7 +188,7 @@ const Service = () => {
       </div>
 
       <div>
-        <AboutUs />
+        {/* <AboutUs /> */}
       </div>
       <style jsx>{`
         .triangle {
