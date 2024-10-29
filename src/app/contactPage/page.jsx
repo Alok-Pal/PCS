@@ -120,10 +120,11 @@ const Contact = () => {
         }
         .bgImage {
           background: linear-gradient(
-              rgba(169, 75, 40, 0.5),
-              rgba(169, 75, 40, 0.5)
+              left,
+              rgba(7, 2, 0, 0.8),
+              rgb(169, 75, 40, 0.5)
             ),
-            url("/assets/mainImg.jpg");
+            url("/assets/aboutPage.jpg");
           background-size: cover;
           background-position: left center; /* Adjust the image position for smaller devices */
           height: 100vh;
