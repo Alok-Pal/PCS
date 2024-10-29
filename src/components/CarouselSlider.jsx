@@ -14,7 +14,7 @@ const CarouselSlider = () => {
 
   const carouselData = [
     {
-      img: "/assets/logo1.png",
+      img: "/assets/GRB_Logo.png",
     },
     {
       img: "/assets/logo2.png",

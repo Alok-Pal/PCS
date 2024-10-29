@@ -51,12 +51,19 @@ const Service = () => {
           </Slide>
           <Slide direction="up" duration={1000} fraction={0}>
             <p className="mt-10">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been industry’s standard dummy text ever
-              since the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. It has survived not only
-              five centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged.
+              We provide a comprehensive range of custom software solutions
+              designed to meet your unique business needs and goals. From
+              initial consulting and development to implementation and ongoing
+              support, our expert team specializes in delivering high-quality,
+              scalable, and secure applications across multiple platforms. Our
+              services include custom software development, responsive web and
+              mobile applications, advanced cloud solutions, and seamless
+              enterprise software integration. By leveraging the latest
+              technologies, we aim to streamline your operations, enhance
+              productivity, and drive growth. Whether you are looking to build a
+              solution from scratch or improve your existing systems, our
+              tailored approach ensures that each product aligns perfectly with
+              your business strategy.
             </p>
           </Slide>
           <Slide direction="up" duration={1000} fraction={0}>
@@ -76,34 +83,23 @@ const Service = () => {
           <Slide direction="up" duration={1000} fraction={0}>
             <div className="mt-6">
               <Slide direction="up" duration={1000} fraction={0}>
-                <p className="font-bold text-3xl text-black">
-                  Helping Business Owners.
-                </p>
+                <p className="font-bold text-3xl text-black">Tech Consulting</p>
               </Slide>
               <Slide direction="up" duration={1000} fraction={0}>
-
                 <div className="text-black mt-3">
-                  There are many variations of passages of Lorem Ipsum available,
-                  but the majority have suffered alteration in some form, by
-                  injected humour, or randomised words which don’t look even
-                  slightly believable. If you are going to use a passage of Lorem
-                  Ipsum, you need to be sure there isn’t anything embarrassing
-                  hidden in the middle of text. All the Lorem Ipsum generators on
-                  the Internet tend to repeat predefined chunks as necessary, making
-                  this the first true generator on the Internet. It uses a
-                  dictionary of over 200 Latin words, combined with a handful of
-                  model sentence structures, to generate Lorem Ipsum which looks
-                  reasonable. The generated Lorem Ipsum is therefore always free
-                  from repetition, injected humour, or non-characteristic words etc.
-                  <p className="mt-3">
-                    There are many variations of passages of Lorem Ipsum available,
-                    but the majority have suffered alteration in some form, by
-                    injected humour, or randomised words which don’t look even
-                    slightly believable. If you are going to use a passage of Lorem
-                    Ipsum, you need to be sure there isn’t anything embarrassing
-                    hidden in the middle of text. All the Lorem Ipsum generators on
-                    the Internet tend to repeat.
-                  </p>
+                  Our Tech Consulting services provide expert guidance to help
+                  you shape and execute a technology strategy that drives
+                  growth, innovation, and resilience. We specialize in aligning
+                  digital transformation initiatives with your business goals,
+                  leveraging emerging technologies, and creating innovation
+                  roadmaps to empower you to stay competitive in a rapidly
+                  evolving tech landscape. Our team brings extensive experience
+                  across industries, offering insights and solutions that
+                  address current challenges while anticipating future
+                  opportunities. Whether you’re looking to enhance operational
+                  efficiency, implement new technologies, or develop a robust IT
+                  infrastructure, we’re here to help you build a sustainable,
+                  forward-thinking strategy tailored to your unique needs.
                 </div>
               </Slide>
             </div>
@@ -111,27 +107,45 @@ const Service = () => {
           <div className="mt-6">
             <Slide direction="up" duration={1000} fraction={0}>
               <p className="font-bold text-3xl text-black">
-                Business Information & Advice.
+                End-to-End Product Development.
               </p>
             </Slide>
             <Slide direction="up" duration={1000} fraction={0}>
               <div className="text-black mt-3">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don’t look even
-                slightly believable. If you are going to use a passage of Lorem
-                Ipsum, you need to be sure there isn’t anything embarrassing
-                hidden in the middle of text. All the Lorem Ipsum generators on
-                the Internet tend to repeat.
-                <p className="mt-3">
-                  There are many variations of passages of Lorem Ipsum available,
-                  but the majority have suffered alteration in some form, by
-                  injected humour, or randomised words which don’t look even
-                  slightly believable. If you are going to use a passage of Lorem
-                  Ipsum, you need to be sure there isn’t anything embarrassing
-                  hidden in the middle of text. All the Lorem Ipsum generators on
-                  the Internet tend to repeat.
-                </p>
+                Our End-to-End Product Development services cover every phase of
+                bringing a product from concept to market. From initial ideation
+                and product strategy to detailed prototyping, rigorous testing,
+                and seamless deployment, we provide a complete solution that
+                turns your vision into a tangible, high-quality product. Our
+                team collaborates closely with you at each step, ensuring that
+                the product meets market demands, aligns with your goals, and
+                exceeds quality standards. We also support continuous
+                improvement, offering post-launch updates and optimizations to
+                enhance functionality and user experience. With our holistic
+                approach, we help you reduce time-to-market, mitigate risks, and
+                deliver a product that resonates with your target audience.
+              </div>
+            </Slide>
+          </div>
+          <div className="mt-6">
+            <Slide direction="up" duration={1000} fraction={0}>
+              <p className="font-bold text-3xl text-black">IoT Solutions</p>
+            </Slide>
+            <Slide direction="up" duration={1000} fraction={0}>
+              <div className="text-black mt-3">
+                Our IoT Solutions empower businesses to harness the full
+                potential of the Internet of Things, driving efficiency,
+                connectivity, and data-driven insights across operations. We
+                specialize in developing robust IoT ecosystems that include
+                sensor networks, smart device integration, and advanced data
+                analytics tailored to your business needs. By connecting assets,
+                monitoring in real time, and analyzing data streams, our
+                solutions provide actionable insights that enhance
+                decision-making and optimize processes. From initial planning
+                and device deployment to secure data management and continuous
+                monitoring, we support you at every step, enabling smarter,
+                faster, and more informed business operations that respond to an
+                ever-evolving market landscape.
               </div>
             </Slide>
           </div>
@@ -139,9 +153,7 @@ const Service = () => {
 
         <div className="font-bold lg:text-start md:text-center sm:text-center text-center mb-20">
           <Slide direction="up" duration={1000} fraction={0}>
-            <div className="pt-20 px-2 font-bold text-3xl">
-              Our Services
-            </div>
+            <div className="pt-20 px-2 font-bold text-3xl">Our Services</div>
           </Slide>
 
           <Slide direction="up" duration={1000} fraction={0}>
@@ -154,14 +166,21 @@ const Service = () => {
           <Slide direction="up" duration={1000} fraction={0}>
             <div className="flex lg:justify-start md:justify-center sm:justify-center justify-center ">
               <div className="mt-2 w-64 p-4 ps-3 font-bold text-lg  service">
-                Business Information
+              Tech Consulting
               </div>
             </div>
           </Slide>
           <Slide direction="up" duration={1000} fraction={0}>
             <div className="flex lg:justify-start md:justify-center sm:justify-center justify-center">
               <div className="mt-2 w-64 p-4 ps-3 font-bold text-lg  service">
-                Helping Advice
+              End-to-End Product Development
+              </div>
+            </div>
+          </Slide>
+          <Slide direction="up" duration={1000} fraction={0}>
+            <div className="flex lg:justify-start md:justify-center sm:justify-center justify-center">
+              <div className="mt-2 w-64 p-4 ps-3 font-bold text-lg  service">
+              IoT Solutions
               </div>
             </div>
           </Slide>
@@ -188,7 +207,7 @@ const Service = () => {
           z-index: -1;
         }
         .bgImage {
-        background: linear-gradient(
+          background: linear-gradient(
               left,
               rgba(7, 2, 0, 0.8),
               rgb(169, 75, 40, 0.5)
@@ -199,7 +218,7 @@ const Service = () => {
           height: 65vh;
         }
         .service {
-          background: linear-gradient(to right, #E0E0E0 50%, #de4b1a 50%),
+          background: linear-gradient(to right, #e0e0e0 50%, #de4b1a 50%),
             url("/assets/serviceImg.jpg");
           background-size: 200% 100%, cover;
           background-position: left center, center;
