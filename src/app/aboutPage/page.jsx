@@ -1,8 +1,9 @@
 "use client";
 import { Fade, Slide } from "react-awesome-reveal";
-import { CardWithImage } from "../../components/Cards";
-import TeamMembers from "../../components/TeamMembers";
+// import { CardWithImage } from "../../components/Cards";
+// import TeamMembers from "../../components/TeamMembers";
 import AboutUs from "../../components/AboutUs";
+import FounderCard from "src/components/Founder";
 
 const About = () => {
   const cardImg = "/assets/abtUsPageImg1.jpg";
@@ -42,11 +43,12 @@ const About = () => {
         </div>
       </Slide>
       <div className="lg:m-40 md:m-40 sm:m-32 mt-20 m-4">
-        <CardWithImage cardImg={cardImg} clientDiv={true} />
+        {/* <CardWithImage cardImg={cardImg} clientDiv={true} /> */}
+        <FounderCard/>
       </div>
-      <div className="pb-10">
+      {/* <div className="pb-10">
         <TeamMembers />
-      </div>
+      </div> */}
       <div>
         <AboutUs/>
       </div>

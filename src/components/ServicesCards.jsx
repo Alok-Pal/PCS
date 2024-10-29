@@ -7,40 +7,40 @@ const ServicesCards = () => {
   const data = [
     {
       img: "/assets/group-chat.png",
-      title: "Business consulting",
+      title: "Software Solutions",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.",
+        "Custom software development, web and mobile applications, cloud solutions, and enterprise software integration to streamline your operations and enhance productivity.",
     },
     {
       img: "/assets/lawyer.png",
-      title: "Business consulting",
+      title: "IoT Solutions",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.",
+        "Innovative Internet of Things (IoT) solutions, including sensor networks, data analytics, and smart device integration to transform your business processes and decision-making.",
     },
     {
       img: "/assets/environment.png",
-      title: "Business consulting",
+      title: "End-to-End Product Development",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.",
+        "Comprehensive product development services from ideation to market launch, including prototyping, testing, and continuous improvement to bring your vision to life.",
     },
     {
       img: "/assets/planning.png",
-      title: "Business consulting",
+      title: "Tech Consulting",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.",
+        "Expert guidance on technology strategy, digital transformation, and innovation roadmaps to help you navigate the rapidly evolving tech landscape.",
     },
-    {
-      img: "/assets/financial2.png",
-      title: "Business consulting",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.",
-    },
-    {
-      img: "/assets/mortgage.png",
-      title: "Business consulting",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.",
-    },
+    // {
+    //   img: "/assets/financial2.png",
+    //   title: "Business consulting",
+    //   description:
+    //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.",
+    // },
+    // {
+    //   img: "/assets/mortgage.png",
+    //   title: "Business consulting",
+    //   description:
+    //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.",
+    // },
   ];
 
   return (
@@ -64,7 +64,7 @@ const ServicesCards = () => {
             </div>
           </Slide>
           <div className="lg:mx-40 md:mx-32 mx-12 my-10 mt-14 font-serif">
-            <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
+            <div className="grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4">
               {data.map((item, index) => (
                  <React.Fragment key={index}>
                   <Slide key={index} direction="up" duration={800}>
@@ -98,13 +98,13 @@ const ServicesCards = () => {
                       </CardContent>
                     </Card>
                   </Slide>
-                  {(index + 1) % 3 === 0 && index !== data.length - 1 && (
+                  {/* {(index + 1) % 3 === 0 && index !== data.length - 1 && (
                     <div className="hidden md:block w-full h-1  col-span-full">
                       <Fade direction="bottom" duration={2000} fraction={0}>
                         <div className=" w-full h-1 bg-orange-700 col-span-full"></div>
                       </Fade>
                     </div>
-                  )}
+                  )} */}
                 </React.Fragment>
               ))}
             </div>
