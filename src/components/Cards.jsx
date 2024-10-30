@@ -7,10 +7,10 @@ import { Card, CardContent } from "../components/ui/card";
 export function CardWithImage({ cardImg, clientDiv }) {
   return (
     <>
-      <Card className="w-full pb-10">
+      <Card className="w-full pb-10  dark:border dark:border-gray-800">
         <CardContent className="h-full">
           <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 w-full h-full">
-            <Slide direction="up" duration={800}>
+            <Slide direction="up" duration={800} triggerOnce={true}>
               <div className="relative w-full h-[65vh] mt-7">
                 <Image
                   className="rounded-lg"

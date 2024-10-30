@@ -131,7 +131,7 @@ const Navbar = () => {
                 href="https://api.whatsapp.com/send?phone=9510573174"
                 target="blank"
               >
-                <div className=" bg-orange-100 p-2 rounded-xl hover:bg-orange-600 hover:text-white ">
+                <div className=" bg-orange-100 dark:bg-gray-800 dark:text-white p-2 rounded-xl hover:bg-orange-600 hover:text-white dark:hover:bg-orange-600">
                   <Phone />
                 </div>
                 &nbsp; +91 9510573174 &nbsp;&nbsp;

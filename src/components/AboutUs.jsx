@@ -70,7 +70,7 @@ const AboutUs = () => {
               {carouselData.map((item, index) => (
                 <CarouselItem key={index}>
                   <div className="">
-                    <Card className="rounded-none font-serif">
+                    <Card className="rounded-none font-serif  dark:border dark:border-gray-800">
                       <CardContent className=" p-6 ">
                         <Quote
                           width={32}

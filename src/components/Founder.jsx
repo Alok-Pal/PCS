@@ -6,11 +6,11 @@ import { Card, CardContent } from "../components/ui/card";
 
 export default function FounderCard() {
   return (
-    <Card className="w-full pb-10">
+    <Card className="w-full pb-10 dark:border dark:border-gray-800">
       <CardContent className="h-full">
         <div className="grid lg:grid-cols-[1fr_1.5fr] md:grid-cols-1 grid-cols-1 w-full h-full gap-6">
           {/* Founder Image */}
-          <Slide direction="up" duration={800}>
+          <Slide direction="up" duration={800} triggerOnce={true}>
             <div className="relative w-full h-[50vh] md:h-[40vh] mt-5 md:mt-7 lg:ps-10 md:ps-8 sm:ps-5">
               <Image
                 className="rounded-lg object-cover"

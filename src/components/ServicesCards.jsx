@@ -40,27 +40,27 @@ const ServicesCards = () => {
   return (
     <>
       <Fade direction="bottom" duration={1000} fraction={0}>
-        <div className="pb-16 bg-gray-100 ">
+        <div className="pb-16 "> 
           <Slide direction="up" duration={1200}>
             <div className="pt-16">
-              <p className="text-6xl text-center font-bold font-serif dark:text-black ">
+              <p className="text-6xl text-center font-bold font-serif">
                 Services We Offer.
               </p>
             </div>
           </Slide>
           <Slide direction="up" duration={1100}>
             <div className="w-full flex justify-center text-center">
-              <p className="text-center max-w-[60vw] mt-4 dark:text-black">
+              <p className="text-center max-w-[60vw] mt-4">
                 We provide a comprehensive range of custom software solutions designed to meet your unique business needs and goals. From initial consulting and development to implementation and ongoing support.
               </p>
             </div>
           </Slide>
           <div className="lg:mx-40 md:mx-32 mx-12 my-10 mt-14 font-serif">
-            <div className="grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4">
-              {data.map((item, index) => (
+            <div className="grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4 ">
+              {data?.map((item, index) => (
                 <React.Fragment key={index}>
                   <Slide key={index} direction="up" duration={800}>
-                    <Card className="">
+                    <Card className=" dark:border dark:border-gray-800 ">
                       <CardContent className="h-full">
                         <div className="w-full h-full lg:p-8 md:p-4 sm:p-6 p-6">
                           <Slide direction="up" duration={1100}>
@@ -82,7 +82,7 @@ const ServicesCards = () => {
                             </div>
                           </Slide>
                           <Slide direction="up" duration={1300}>
-                            <div className="mt-3 text-lg text-gray-600 ">
+                            <div className="mt-3 text-lg ">
                               {item.description}
                             </div>
                           </Slide>
