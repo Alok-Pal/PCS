@@ -23,7 +23,7 @@ export default function Footer() {
               <h2 className="mb-2 text-sm font-semibold text-gray-900 dark:text-white uppercase">
                 Resources
               </h2>
-              <ul className="text-gray-500 font-medium">
+              <ul className="text-gray-500 font-medium dark:text-gray-300">
                 <li className="mb-2">
                   <Link href="/" className="hover:underline">
                     Home
@@ -40,7 +40,7 @@ export default function Footer() {
               <h2 className="mb-2 text-sm font-semibold text-gray-900 dark:text-white uppercase">
                 Follow us
               </h2>
-              <ul className="text-gray-500 font-medium">
+              <ul className="text-gray-500 dark:text-gray-300 font-medium">
                 <li className="mb-2">
                   <a
                     href="https://www.linkedin.com/company/pal-consultancy-services-india/"
@@ -57,7 +57,7 @@ export default function Footer() {
               <h2 className="mb-2 text-sm font-semibold text-gray-900 dark:text-white uppercase">
                 Legal
               </h2>
-              <ul className="text-gray-500 font-medium">
+              <ul className="text-gray-500 dark:text-gray-300 font-medium">
                 <li className="mb-2">
                   <Link href="#" className="hover:underline">
                     Privacy Policy
@@ -73,8 +73,8 @@ export default function Footer() {
           </div>
         </div>
         <hr className="my-6 w-full border-gray-200 sm:mx-auto lg:my-8" />
-        <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center font-bold">
+        <div className="sm:flex sm:items-center sm:justify-between  ">
+          <span className="text-sm text-gray-500 sm:text-center font-bold dark:text-gray-300">
             © 2023
             <a href="#" className="hover:underline font-bold">
               &nbsp; Pal Consultancy Services

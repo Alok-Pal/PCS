@@ -21,7 +21,7 @@ const MainImage = () => {
       <Head>
         <link rel="preload" href="/assets/about.jpg" as="image" />
       </Head>
-      <Slide direction="up" duration={1300}>
+      <Slide direction="up" duration={1300} triggerOnce={true}>
         <div className="main-image relative">
           <div className="pt-10 lg:px-20 md:px-20 sm:px-20 px-16 ">
             <Slide direction="up" duration={1700} className ="lg:mt-10">

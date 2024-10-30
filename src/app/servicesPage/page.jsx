@@ -39,12 +39,12 @@ const Service = () => {
           ></div>
         </div>
       </Slide>
-      <div className="grid lg:grid-cols-[70%_30%] font-serif bg-gray-100 ">
+      <div className="grid lg:grid-cols-[70%_30%] font-serif ">
         <div className="pt-20 lg:pl-36 md:px-24 sm:px-14 px-7 mb-20">
           <Slide direction="up" duration={1000} fraction={0}>
             <p className="font-bold sm:text-5xl text-4xl">
               Software{" "}
-              <span className="font-bold text-orange-700 hover:text-black">
+              <span className="font-bold text-orange-700">
                 Development.
               </span>
             </p>
@@ -83,10 +83,10 @@ const Service = () => {
           <Slide direction="up" duration={1000} fraction={0}>
             <div className="mt-6">
               <Slide direction="up" duration={1000} fraction={0}>
-                <p className="font-bold text-3xl text-black">Tech Consulting</p>
+                <p className="font-bold text-3xl">Tech Consulting</p>
               </Slide>
               <Slide direction="up" duration={1000} fraction={0}>
-                <div className="text-black mt-3">
+                <div className=" mt-3">
                   Our Tech Consulting services provide expert guidance to help
                   you shape and execute a technology strategy that drives
                   growth, innovation, and resilience. We specialize in aligning
@@ -106,12 +106,12 @@ const Service = () => {
           </Slide>
           <div className="mt-6">
             <Slide direction="up" duration={1000} fraction={0}>
-              <p className="font-bold text-3xl text-black">
+              <p className="font-bold text-3xl ">
                 End-to-End Product Development.
               </p>
             </Slide>
             <Slide direction="up" duration={1000} fraction={0}>
-              <div className="text-black mt-3">
+              <div className=" mt-3">
                 Our End-to-End Product Development services cover every phase of
                 bringing a product from concept to market. From initial ideation
                 and product strategy to detailed prototyping, rigorous testing,
@@ -129,10 +129,10 @@ const Service = () => {
           </div>
           <div className="mt-6">
             <Slide direction="up" duration={1000} fraction={0}>
-              <p className="font-bold text-3xl text-black">IoT Solutions</p>
+              <p className="font-bold text-3xl ">IoT Solutions</p>
             </Slide>
             <Slide direction="up" duration={1000} fraction={0}>
-              <div className="text-black mt-3">
+              <div className=" mt-3">
                 Our IoT Solutions empower businesses to harness the full
                 potential of the Internet of Things, driving efficiency,
                 connectivity, and data-driven insights across operations. We
@@ -153,33 +153,33 @@ const Service = () => {
 
         <div className="font-bold lg:text-start md:text-center sm:text-center text-center mb-20">
           <Slide direction="up" duration={1000} fraction={0}>
-            <div className="pt-20 px-2 font-bold text-3xl">Our Services</div>
+            <div className="pt-20 px-2 font-bold text-3xl ">Our Services</div>
           </Slide>
 
           <Slide direction="up" duration={1000} fraction={0}>
             <div className="flex  lg:justify-start md:justify-center sm:justify-center justify-center">
-              <div className="mt-10 w-64 p-4 ps-3 font-bold text-lg  service">
+              <div className="mt-10 w-64 p-4 ps-3 font-bold text-lg  service dark:text-black">
                 Software Development
               </div>
             </div>
           </Slide>
           <Slide direction="up" duration={1000} fraction={0}>
             <div className="flex lg:justify-start md:justify-center sm:justify-center justify-center ">
-              <div className="mt-2 w-64 p-4 ps-3 font-bold text-lg  service">
+              <div className="mt-2 w-64 p-4 ps-3 font-bold text-lg  service dark:text-black">
               Tech Consulting
               </div>
             </div>
           </Slide>
           <Slide direction="up" duration={1000} fraction={0}>
             <div className="flex lg:justify-start md:justify-center sm:justify-center justify-center">
-              <div className="mt-2 w-64 p-4 ps-3 font-bold text-lg  service">
+              <div className="mt-2 w-64 p-4 ps-3 font-bold text-lg  service dark:text-black">
               End-to-End Product Development
               </div>
             </div>
           </Slide>
           <Slide direction="up" duration={1000} fraction={0}>
             <div className="flex lg:justify-start md:justify-center sm:justify-center justify-center">
-              <div className="mt-2 w-64 p-4 ps-3 font-bold text-lg  service">
+              <div className="mt-2 w-64 p-4 ps-3 font-bold text-lg  service dark:text-black">
               IoT Solutions
               </div>
             </div>
