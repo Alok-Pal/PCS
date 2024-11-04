@@ -1,12 +1,21 @@
 "use client";
 import Image from "next/image";
+import { useRef } from "react";
 import { Slide } from "react-awesome-reveal";
-import AboutUs from "../../components/AboutUs";
 
 const Service = () => {
+  const softwareDevelopmentRef = useRef(null);
+  const techConsultingRef = useRef(null);
+  const productDevelopmentRef = useRef(null);
+  const iotSolutionsRef = useRef(null);
+
+  // Scroll to the section when the sidebar button is clicked
+  const handleScroll = (ref) => {
+    ref?.current?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <>
-      <Slide direction="up" duration={1000} fraction={0}>
+      <Slide direction="up" duration={1000} fraction={0} triggerOnce={true}>
         <div className="font-serif h-[90vh] bgImage" style={{ marginTop: "" }}>
           <div className="z-20 sm:pt-40 pt-24 relative flex justify-center font-serif">
             <div className="grid sm:grid-cols-2 grid-cols-1 relative z-10">
@@ -39,9 +48,10 @@ const Service = () => {
           ></div>
         </div>
       </Slide>
-      <div className="grid lg:grid-cols-[70%_30%] font-serif ">
+      <div  className="grid lg:grid-cols-[70%_30%] font-serif ">
         <div className="pt-20 lg:pl-36 md:px-24 sm:px-14 px-7 mb-20">
-          <Slide direction="up" duration={1000} fraction={0}>
+          
+          <div ref={softwareDevelopmentRef}><Slide direction="up" duration={1000} fraction={0}>
             <p className="font-bold sm:text-5xl text-4xl">
               Software{" "}
               <span className="font-bold text-orange-700">
@@ -66,7 +76,9 @@ const Service = () => {
               your business strategy.
             </p>
           </Slide>
-          <Slide direction="up" duration={1000} fraction={0}>
+          </div>
+          
+          <Slide direction="up" duration={1000} fraction={0} triggerOnce={true}>
             <div className="relative pt-4">
               <Image
                 className=""
@@ -79,7 +91,7 @@ const Service = () => {
               />
             </div>
           </Slide>
-
+          <div ref={techConsultingRef} className="mt-6">
           <Slide direction="up" duration={1000} fraction={0}>
             <div className="mt-6">
               <Slide direction="up" duration={1000} fraction={0}>
@@ -104,9 +116,10 @@ const Service = () => {
               </Slide>
             </div>
           </Slide>
-          <div className="mt-6">
+          </div>
+          <div ref={productDevelopmentRef} className="mt-6">
             <Slide direction="up" duration={1000} fraction={0}>
-              <p className="font-bold text-3xl ">
+              <p className="font-bold text-3xl " >
                 End-to-End Product Development.
               </p>
             </Slide>
@@ -127,11 +140,11 @@ const Service = () => {
               </div>
             </Slide>
           </div>
-          <div className="mt-6">
+          <div ref={iotSolutionsRef} className="mt-6">
             <Slide direction="up" duration={1000} fraction={0}>
               <p className="font-bold text-3xl ">IoT Solutions</p>
             </Slide>
-            <Slide direction="up" duration={1000} fraction={0}>
+            <Slide direction="up" duration={1000} fraction={0} >
               <div className=" mt-3">
                 Our IoT Solutions empower businesses to harness the full
                 potential of the Internet of Things, driving efficiency,
@@ -158,28 +171,28 @@ const Service = () => {
 
           <Slide direction="up" duration={1000} fraction={0}>
             <div className="flex  lg:justify-start md:justify-center sm:justify-center justify-center">
-              <div className="mt-10 w-64 p-4 ps-3 font-bold text-lg  service dark:text-black">
+              <div className="mt-10 w-64 p-4 ps-3 font-bold text-lg  service dark:text-black cursor-pointer" onClick={() => handleScroll(softwareDevelopmentRef)}>
                 Software Development
               </div>
             </div>
           </Slide>
           <Slide direction="up" duration={1000} fraction={0}>
             <div className="flex lg:justify-start md:justify-center sm:justify-center justify-center ">
-              <div className="mt-2 w-64 p-4 ps-3 font-bold text-lg  service dark:text-black">
+              <div className="mt-2 w-64 p-4 ps-3 font-bold text-lg  service dark:text-black cursor-pointer" onClick={() => handleScroll(techConsultingRef)}>
               Tech Consulting
               </div>
             </div>
           </Slide>
           <Slide direction="up" duration={1000} fraction={0}>
             <div className="flex lg:justify-start md:justify-center sm:justify-center justify-center">
-              <div className="mt-2 w-64 p-4 ps-3 font-bold text-lg  service dark:text-black">
+              <div className="mt-2 w-64 p-4 ps-3 font-bold text-lg  service dark:text-black cursor-pointer" onClick={() => handleScroll(productDevelopmentRef)}>
               End-to-End Product Development
               </div>
             </div>
           </Slide>
           <Slide direction="up" duration={1000} fraction={0}>
             <div className="flex lg:justify-start md:justify-center sm:justify-center justify-center">
-              <div className="mt-2 w-64 p-4 ps-3 font-bold text-lg  service dark:text-black">
+              <div className="mt-2 w-64 p-4 ps-3 font-bold text-lg  service dark:text-black cursor-pointer" onClick={() => handleScroll(iotSolutionsRef)}>
               IoT Solutions
               </div>
             </div>

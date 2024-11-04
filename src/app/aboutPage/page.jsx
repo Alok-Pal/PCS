@@ -9,7 +9,7 @@ const About = () => {
   const cardImg = "/assets/abtUsPageImg1.jpg";
   return (
     <>
-      <Slide direction="up" duration={1000} fraction={0}>
+      <Slide direction="up" duration={1000} fraction={0} triggerOnce={true}>
         <div className="font-serif h-[90vh] bgImage" style={{ marginTop: "" }}>
           <div className="z-20  sm:pt-40 pt-24 relative flex justify-center font-serif">
             <div className="grid sm:grid-cols-2 grid-cols-1  relative z-10">
